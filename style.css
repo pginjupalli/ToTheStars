@@ -176,7 +176,7 @@
   }
   
   .statistics {
-    background-color: lavender;
+    background-color: blue;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
