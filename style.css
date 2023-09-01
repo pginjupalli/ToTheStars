@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans TC;
+    font-weight: bolder;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(185, 185, 185);
+  
+  }
+  
+  
+  .header {
+    margin-top: 35pt;
+    display:flex;
+    font-size: 40px;
+    font-family: Spartan;
+    color:aliceblue;
+    align-items:center;
+    justify-content:center;
+    background-image: url("night-sky.jpg");
+    flex-direction: column;
+    font-style: italic;
+    padding:30px;
+  }
+  
+  .subheader {
+    display:flex;
+    font-family: Noto Sans TC;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    color:aliceblue;
+  }
+  
+  .title {
+    margin: 0px;
+  }
+  
+  .home-page1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .home-image {
+    margin-right: 50px;
+    margin-top: 50px; 
+    margin-left: 50px;
+    margin-bottom: 50px;
+    object-fit: cover;
+  }
+  
+  .intro-p {
+    margin-top: 115px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family:Roboto;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  
+  .home-page2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .facts {
+    font-family: Roboto;
+    padding: 8px;
+  }
+  
+  .calculator {
+    text-align: center;
+    font-family: Roboto;
+  }
+  
+  .label {
+    font-family: spartan;
+  }
+  .labelfacts {
+    font-family: spartan;
+    margin: 8px;
+  
+  }
+  .label-input {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  input {
+    width: 120px;
+    border-radius: 0px;
+    border: 1px solid gray;
+  }
+  
+  .answer {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 75px;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  .stat-boxes {
+    text-align: center;
+    width: 200px;
+    font-family: Noto Sans TC;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    font-size: 60px;
+  }
+  
+  .stat-text {
+    font-size: 30px;
+  }
+  
+  .stat-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .statistics {
+    background-color: lavender;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .submit-btn {
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    background-color: lavender;
+    border: 0px;
+    color:black;
+  }
+  
+  .submit-btn:hover {
+    color: lavender;
+    background-color: black;
+  }
+  .video {
+    background-image: url("night-sky.jpg");
+    padding: 25px;
+  }

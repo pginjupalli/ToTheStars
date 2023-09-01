@@ -1,0 +1,181 @@
+/*Navigation Bar and "To The Stars"*/
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Noto Sans TC;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(185, 185, 185);
+  }
+  
+  
+  .header {
+    margin-top: 50px;
+    display:flex;
+    font-size: 40px;
+    font-family: Spartan;
+    color:aliceblue;
+    align-items:center;
+    justify-content:center;
+    background-image: url("night-sky.jpg");
+    flex-direction: column;
+    font-style: italic;
+    padding:30px;
+  }
+  
+  .subheader {
+    display:flex;
+    font-family: Noto Sans TC;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    color:aliceblue;
+  }
+  
+  .title {
+    margin: 0px;
+  }
+  
+  /*Introduction to Stars Section*/
+  .section-intro-stars {
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .header-stars {
+    font-family: Spartan;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .intro-p-stars {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  /*Star Info Section*/
+  .star-left {
+    display: flex;
+    justify-content: space-around;
+    background-color: lavender;
+    padding: 30px;
+  }
+  
+  .star-image {
+    width: 550px;
+    height: 300px;
+    transition: transform .2s ease-in-out;
+  }
+  
+  .star-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .star-facts {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+  
+  .star-right {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .star-name {
+    list-style: none;
+    text-align: center;
+    font-size: 35px;
+    font-family: Spartan;
+    margin-bottom: 20px;
+  }
+  
+  /*Extra Info Section*/
+  .extra-images-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .extra-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .2s ease-in-out;
+  }
+  
+  .extra-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .extra-intro {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .extra-header {
+    font-family: Spartan;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .extra-intro-p {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .extra-facts {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 50px;
+  }
+  
+  

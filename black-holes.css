@@ -1,0 +1,159 @@
+/*Navigation Bar and "To The Stars"*/
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Noto Sans TC;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(185, 185, 185);
+  }
+  
+  
+  .header {
+    display:flex;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Spartan;
+    color:aliceblue;
+    align-items:center;
+    justify-content:center;
+    background-image: url("night-sky.jpg");
+    flex-direction: column;
+    font-style: italic;
+    padding:30px;
+  }
+  
+  .subheader {
+    display:flex;
+    font-family: Noto Sans TC;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    color:aliceblue;
+  }
+  
+  .title {
+    margin: 0px;
+  }
+  
+  /*Intro Paragraph*/
+  .intro {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+    font-family: Roboto;
+  }
+  
+  /*Sections*/
+  
+  .lavender-section {
+    background-color: lavender;
+    text-align: center;
+  }
+  
+  .white-section {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .bl-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+  }
+  
+  .bl-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .2s ease-in-out;
+  }
+  .bl-image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .section-header {
+    font-family: Spartan;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  
+  .section-text {
+    font-family: Roboto;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .explanation {
+    margin: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+    padding-bottom: 20px;
+    line-height: 30px;
+  }
+  
+  /*first pic of black hole*/
+  .firstpic-section {
+    background-color: black;
+    text-align: center;
+  }
+  
+  .firstpic-header, .firstpic-text {
+    color: white;
+  }
+  
+  .firstpic-header {
+    font-family: Spartan;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  
+  .firstpic-text {
+    font-family: Roboto;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }

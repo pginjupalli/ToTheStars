@@ -1,0 +1,219 @@
+/*Navigation Bar and "To The Stars"*/
+body {
+    background-image: url("night-sky.jpg");
+  }
+  
+  *{
+    margin:0;
+    padding:0;
+  }
+  
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Noto Sans TC;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(185, 185, 185);
+  }
+  
+  
+  .header {
+    margin-top: 50px;
+    display:flex;
+    font-size: 40px;
+    font-family: Orbitron;
+    color:aliceblue;
+    align-items:center;
+    justify-content:center;
+    background-image: url("night-sky.jpg");
+    flex-direction: column;
+    padding:30px;
+  }
+  
+  .title {
+    margin: 0px;
+  }
+  
+  .ssintro {
+    display: flex;
+    align-items: center; 
+    font-family: Roboto;
+    color:aliceblue; 
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  
+  .rowofplanets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sun {
+  object-fit:cover;
+  width: 1100px;
+  height: 1100px;
+  padding-bottom: 100px;
+  } 
+  
+  .mercury {
+  object-fit:cover;
+  width: 250px;
+  height:250px;
+  padding: 100px;
+  }
+  
+  .venus {
+  object-fit:cover;
+  width: 350px;
+  height:350px;
+  padding: 100px;
+  }
+  
+  .earth {
+  object-fit:cover;
+  width: 450px;
+  height:450px;
+  padding: 100px;
+  }
+  
+  .mars {
+  object-fit:cover;
+  width: 300px;
+  height:300px;
+  padding: 100px;
+  }
+  
+  .jupiter {
+  object-fit:cover;
+  width: 1000px;
+  height:1000px;
+  padding: 100px;
+  }
+  
+  .saturn {
+  width: 925px;
+  height:460px;
+  padding: 100px;
+  }
+  
+  .uranus {
+  object-fit:cover;
+  width: 600px;
+  height:600px;
+  padding: 100px;
+  }
+  
+  .neptune {
+  object-fit:cover;
+  width: 550px;
+  height:550px;
+  padding: 100px;
+  }
+  
+  CSS
+  #sun[title]:hover:after {
+    background-color: red;
+    content: attr(title);
+    position: absolute;
+    width: 50px;
+    height:300px;
+  }
+  
+  CSS
+  #mercury[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+   
+  }
+  
+  CSS
+  #venus[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+  
+  }
+  CSS
+  #earth[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+    
+  }
+  CSS
+  #mars[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+   
+  }
+  CSS
+  #jupiter[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+    
+  }
+  CSS
+  #saturn[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+   
+  }
+  CSS
+  #uranus[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+    
+  }
+  CSS
+  #neptune[title]:hover:after {
+    color: red;
+    content: attr(title);
+    position: absolute;
+    
+  }
+  
